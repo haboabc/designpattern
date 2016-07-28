@@ -41,6 +41,7 @@ func StartService(choice, param string) {
 	factory = GetFactory(choice)
 
 	if factory != nil {
+		/* 这个接口目前只有这一种方法 */
 		factory.StartService(param)
 	} else {
 		//err

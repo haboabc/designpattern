@@ -18,3 +18,10 @@
 			   user(user)
 
 	5. 如果有需要，用户也可要求获取机器的功能，shape.GetMechine(), 用户获取机器后自己开启机器Circle.Draw()
+
+
+		mechine1  mechine2 ..
+
+			 factory
+
+			  user
