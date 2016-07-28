@@ -1,0 +1,15 @@
+抽象工厂模式：一个超级工厂和许多其他工厂
+
+一个接口对应一个工厂， 超级工厂的mechine 是代理工厂 
+
+比如shpae工厂和color工厂上接一个超级工厂
+
+	mechine1...     mechine2...
+
+		shape工厂   color工厂
+
+		代理工厂1   代理工厂2
+
+		      super工厂
+		
+				user
