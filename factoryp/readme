@@ -1,0 +1,18 @@
+工厂模式
+
+例子
+	1. 创建shape接口(功能)
+	2. 创建机器库，每个机器都实现了接口, circle 机器， square机器, rectangle机器
+	3. (或者将机器选择机制继承到shape接口文件)
+		创建工厂，实现自动选择机器, 向外提供功能
+	4. 使用工厂 main() 函数要使用工厂的功能
+
+本例中工厂是shape, 功能是Draw(), 客户会调用工厂的功能: shape.Draw("...")
+	  工厂的Draw()是一个机器选择器和机器启动器:switch() 和 Circle.Draw()
+
+
+	circle   square  rectangle (mechine)
+			
+			  shape(factory)
+
+			   user(user)
